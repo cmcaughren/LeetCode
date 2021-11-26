@@ -21,9 +21,6 @@ public:
             array[i] = n%10;
             n = n/10;
         }
-        for (int i = 0; i < count; i++){
-            cout << array[i];
-        }
         for (int i = 0; i < (count/2); i++){
         
             if (array[i] != array[(count -1 -i)]){
