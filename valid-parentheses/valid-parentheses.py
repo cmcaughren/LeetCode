@@ -24,7 +24,7 @@ class Solution:
                     if bracket is not "]":
                         return False
                 #we have a matching bracket set
-        print(stack)
+
         if len(stack) != 0:
             return False
         else: 
